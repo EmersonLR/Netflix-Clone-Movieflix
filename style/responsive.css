@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 700px){ /*até 700px a tela usara esta formatação*/
+    header .container{ /* os submenus ficam debaixo da logo quando diminui a janela */
+    display: flex;
+    flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 150px;
+        
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+    
+}
+
